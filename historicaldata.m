@@ -14,6 +14,7 @@ function eod_data = historicaldata(assets, date_init, date_end, api_token)
 %   API Token:
 %       A string with a valid API token provided by EOD Historical Data. If
 %       API Token is not introduced, a promt will appear.
+% Copyright (c) Alejandro Guerrero-López
 
 addpath('./JSONio/')
 
